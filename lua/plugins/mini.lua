@@ -17,9 +17,15 @@ return {
         -- Required setup
         opts = {}
     },
-    -- Would use tabline but it breaks my line numbers
-    --[[ {
+    {
         'nvim-mini/mini.tabline',
         version = '*',
-    }, ]]
+        -- Required setup
+        config = function()
+            require('mini.tabline').setup({
+                show_icons = true,
+                format = nil,
+            })
+        end,
+    },
 }

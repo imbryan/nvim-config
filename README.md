@@ -9,6 +9,7 @@ Using the **[lazy.nvim](https://github.com/folke/lazy.nvim)** plugin manager.
 * **[mini.icons](https://github.com/nvim-mini/mini.icons)**: icons
 * **[mini.statusline](https://github.com/nvim-mini/mini.statusline)**: Vim statusline
 * **[mini.surround](https://github.com/nvim-mini/mini.surround)**: surround actions
+* **[mini.tabline](https://github.com/nvim-mini/mini.tabline)**: Vim tabline
 * **[nvim-colorizer.lua](https://github.com/norcalli/nvim-colorizer.lua)**: color highlighting
 * **[nvim-lspconfig](https://github.com/neovim/nvim-lspconfig)**: LSP configuration
 * **[nvim-treesitter](https://github.com/nvim-treesitter/nvim-treesitter)**: tree-sitter
