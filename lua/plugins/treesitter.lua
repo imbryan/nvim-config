@@ -1,5 +1,33 @@
 return {
 	'nvim-treesitter/nvim-treesitter', branch = 'main',
 	lazy = false,
-	build = ':TSUpdate'
+	build = ':TSUpdate',
+    config = function()
+        -- Installs if not present (else no-op)
+        require('nvim-treesitter').install({
+            'bash',
+            'c',
+            'css',
+            'desktop',
+            'dockerfile',
+            'html',
+            'htmldjango',
+            'javascript',
+            'jinja',
+            'json',
+            'lua',
+            'markdown',
+            'markdown_inline',
+            'nginx',
+            'python',
+            'query',
+            'scss',
+            'sql',
+            'typescript',
+            'rust',
+            'vim',
+            'vimdoc',
+            'yaml',
+        })
+    end,
 }
