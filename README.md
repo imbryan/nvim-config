@@ -10,6 +10,7 @@ Using the **[lazy.nvim](https://github.com/folke/lazy.nvim)** plugin manager.
 * **[mini.statusline](https://github.com/nvim-mini/mini.statusline)**: Vim statusline
 * **[mini.surround](https://github.com/nvim-mini/mini.surround)**: surround actions
 * **[nvim-colorizer.lua](https://github.com/norcalli/nvim-colorizer.lua)**: color highlighting
+* **[nvim-lspconfig](https://github.com/neovim/nvim-lspconfig)**: LSP configuration
 * **[nvim-treesitter](https://github.com/nvim-treesitter/nvim-treesitter)**: tree-sitter
 * **[opencode.nvim](https://github.com/NickvanDyke/opencode.nvim)**: OpenCode integration
 * **[snacks.nvim](https://github.com/folke/snacks.nvim)**: notifications, smooth scroll, scope, indentation
