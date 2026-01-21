@@ -1,7 +1,7 @@
 ## Plugins
 Using the **[lazy.nvim](https://github.com/folke/lazy.nvim)** plugin manager.
 * **[blink.cmp](https://github.com/saghen/blink.cmp)**: completion
-* **[Color.nvim](https://github.com/numToStr/Comment.nvim)**: code comment actions
+* **[Comment.nvim](https://github.com/numToStr/Comment.nvim)**: code comment actions
 * **[fidget.nvim](https://github.com/j-hui/fidget.nvim)**: LSP progress messages
 * **[gitsigns.nvim](https://github.com/lewis6991/gitsigns.nvim)**: Git integration with visualizations
 * **[mason.nvim](https://github.com/mason-org/mason.nvim)**: LSP package manager
