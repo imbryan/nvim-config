@@ -11,14 +11,7 @@ vim.keymap.set("n", "<tab>", "<cmd>bnext<CR>", { desc = "Next buffer" })
 vim.keymap.set("n", "<S-Tab>", "<cmd>bprev<CR>", { desc = "Previous buffer" })
 vim.keymap.set("n", "<leader>bd", "<cmd>bd<CR>", { desc = "Delete buffer" })
 
-vim.keymap.set("t", "<Esc><Esc>", [[<C-\><C-n>]], { desc = "Exit terminal mode" })
-
--- Open terminal on the bottom with a 33% height
-vim.keymap.set("n", "<leader>`", function()
-    local lines = math.floor(vim.o.lines * 0.33)
-    vim.cmd("botright "..lines.."split | te")
-    vim.opt_local.winfixheight = true
-end, { desc = "Bottom split Terminal" })
+vim.keymap.set("t", "<Esc><Esc>", [[<C-\><C-n>]], { desc = "Exit terminal mode", nowait = true, silent = true })
 
 -- Make space behave normal in Terminal Mode
 local term_fix_group = vim.api.nvim_create_augroup("TerminalFix", { clear = true })
