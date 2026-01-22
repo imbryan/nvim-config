@@ -28,5 +28,11 @@ return {
             desc = "Toggle terminal"
         },
         -- TODO: figure out why it takes three <Esc> to exit terminal mode
+        {
+            "<leader>bd",
+            function() Snacks.bufdelete() end,
+            mode = { "n", },
+            desc = "Delete buffer"
+        },
     },
 }

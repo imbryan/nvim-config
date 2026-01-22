@@ -9,7 +9,6 @@ vim.keymap.set("n", "<leader>w", ":w<CR>")
 vim.keymap.set("n", "<leader>r!", ":set relativenumber!<CR>", { desc = "Toggle Relative Line Numbers" })
 vim.keymap.set("n", "<tab>", "<cmd>bnext<CR>", { desc = "Next buffer" })
 vim.keymap.set("n", "<S-Tab>", "<cmd>bprev<CR>", { desc = "Previous buffer" })
-vim.keymap.set("n", "<leader>bd", "<cmd>bd<CR>", { desc = "Delete buffer" })
 
 vim.keymap.set("t", "<Esc><Esc>", [[<C-\><C-n>]], { desc = "Exit terminal mode", nowait = true, silent = true })
 
