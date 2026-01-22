@@ -11,14 +11,3 @@ vim.keymap.set("n", "<tab>", "<cmd>bnext<CR>", { desc = "Next buffer" })
 vim.keymap.set("n", "<S-Tab>", "<cmd>bprev<CR>", { desc = "Previous buffer" })
 
 vim.keymap.set("t", "<Esc><Esc>", [[<C-\><C-n>]], { desc = "Exit terminal mode", nowait = true, silent = true })
-
--- Make space behave normal in Terminal Mode
-local term_fix_group = vim.api.nvim_create_augroup("TerminalFix", { clear = true })
-
-vim.api.nvim_create_autocmd("TermOpen", {
-    group = term_fix_group,
-    pattern = "*",
-    callback = function()
-        vim.keymap.set("t", "<space>", "<space>", { buffer = true, nowait = true })
-    end,
-})
