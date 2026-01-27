@@ -24,3 +24,25 @@ Using the **[lazy.nvim](https://github.com/folke/lazy.nvim)** plugin manager.
 * **[vim-be-good](https://github.com/ThePrimeagen/vim-be-good)**: Vim training game
 * **[vim-cool](https://github.com/romainl/vim-cool)**: better hlsearch
 * **[vim-fugitive](https://github.com/tpope/vim-fugitive)**: Git integration
+
+## Language servers and linters
+| Mason | Lspconfig |
+| --- | --- |
+| ``actionlint`` | |
+| `` bash-language-server`` | ``bashls`` |
+| ``commitlint`` | |
+| ``django-template-lsp`` | ``djlsp`` |
+| ``docker-language-server`` | ``docker_language_server`` |
+| ``eslint-lsp`` | ``eslint`` |
+| ``html-lsp`` | ``html`` |
+| ``htmx-lsp`` | ``htmx`` |
+| ``json-lsp`` | ``jsonls`` |
+| ``lua-language-server`` | ``lua_ls`` |
+| ``marksman`` | |
+| ``python-lsp-server`` | ``pylsp`` |
+| ``rust-analyzer`` | ``rust_analyzer`` |
+| ``some-sass-language-server`` | ``somesass_ls`` |
+| ``sqlfluff`` | |
+| ``sqls`` | |
+| ``typescript-language-server`` | ``ts_ls`` |
+| ``yamllint`` | |
