@@ -29,7 +29,7 @@ Using the **[lazy.nvim](https://github.com/folke/lazy.nvim)** plugin manager.
 | Mason | Lspconfig |
 | --- | --- |
 | ``actionlint`` | |
-| `` bash-language-server`` | ``bashls`` |
+| ``bash-language-server`` | ``bashls`` |
 | ``commitlint`` | |
 | ``django-template-lsp`` | ``djlsp`` |
 | ``docker-language-server`` | ``docker_language_server`` |
