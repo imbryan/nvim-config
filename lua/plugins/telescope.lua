@@ -11,6 +11,11 @@ return {
             desc = 'Find files',
         },
         {
+            '<leader>tsff',
+            function() require('telescope.builtin').find_files() end,
+            desc = 'Find files',
+        },
+        {
             '<leader>tsgs',
             function() require('telescope.builtin').grep_string(
                 { search = vim.fn.input("Grep > ") }
