@@ -22,6 +22,11 @@ return {
             mode = { "n", "t" },
         },
         {
+            "<leader>oc",
+            function() require("opencode").toggle() end,
+            mode = { "n", "t" },
+        },
+        {
             "<leader>oca",
             function() require("opencode").ask("@this: ", { submit = true }) end,
             mode = { "n", "x" },
