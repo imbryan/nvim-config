@@ -46,3 +46,6 @@ Using the **[lazy.nvim](https://github.com/folke/lazy.nvim)** plugin manager.
 | ``sqls`` | |
 | ``typescript-language-server`` | ``ts_ls`` |
 | ``yamllint`` | |
+
+## Known issues
+* Terminal mode requires triple ``<Esc>`` to exit (double is expected)
