@@ -1,5 +1,6 @@
 ## Plugins
 Using the **[lazy.nvim](https://github.com/folke/lazy.nvim)** plugin manager.
+* **[99](https://github.com/ThePrimeagen/99)**: AI agent (OpenCode integration)
 * **[blink.cmp](https://github.com/saghen/blink.cmp)**: completion
 * **[Comment.nvim](https://github.com/numToStr/Comment.nvim)**: code comment actions
 * **[fidget.nvim](https://github.com/j-hui/fidget.nvim)**: LSP progress messages
