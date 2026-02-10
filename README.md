@@ -31,6 +31,7 @@ Using the **[lazy.nvim](https://github.com/folke/lazy.nvim)** plugin manager.
 | --- | --- |
 | ``actionlint`` | |
 | ``bash-language-server`` | ``bashls`` |
+| ``clangd`` | |
 | ``commitlint`` | |
 | ``django-template-lsp`` | ``djlsp`` |
 | ``docker-language-server`` | ``docker_language_server`` |
