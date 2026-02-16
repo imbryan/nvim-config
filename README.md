@@ -51,4 +51,4 @@ Using the **[lazy.nvim](https://github.com/folke/lazy.nvim)** plugin manager.
 
 ## Known issues
 * Terminal mode requires triple ``<Esc>`` to exit (double is expected)
-* Telescope: ``find_files`` grep preview throws error: ``Invalid window id``
+* ``todo-comments`` highlighting does not appear until buffer redraw is triggered 
