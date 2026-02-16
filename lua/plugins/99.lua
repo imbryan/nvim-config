@@ -17,10 +17,9 @@ return {
             },
 
             completion = {
-                -- TODO: look into blink compatibility
-                -- source = "cmp",
-                -- custom_rules = {},
-                -- files = {},
+                source = "blink",
+                custom_rules = {},
+                files = {},
             },
 
             -- based on cwd

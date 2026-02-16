@@ -1,23 +1,28 @@
 return {
-    'saghen/blink.cmp',
-    dependencies = { 'rafamadriz/friendly-snippets' },
-    version = '1.*',
-    
-    opts = {
-        keymap = { preset = 'default' },
+    {
+        'saghen/blink.cmp',
+        dependencies = { 'rafamadriz/friendly-snippets' },
+        version = '1.*',
 
-        appearance = { nerd_font_variant = 'mono' },
+        opts = {
+            keymap = { preset = 'default' },
 
-        -- Only show documentation popup when triggered
-        completion = { documentation = { auto_show = false } },
+            appearance = { nerd_font_variant = 'mono' },
 
-        sources = {
-            default = { 'lsp', 'path', 'snippets', 'buffer' },
+            -- Only show documentation popup when triggered
+            completion = { documentation = { auto_show = false } },
+
+            sources = {
+                default = { 'lsp', 'path', 'snippets', 'buffer' },
+            },
+
+            fuzzy = { implementation = "prefer_rust_with_warning" },
+
         },
-
-        fuzzy = { implementation = "prefer_rust_with_warning" },
-
         opts_extend = { "sources.default" }
+    },
+    {
+        'saghen/blink.compat',
+        version = '2.*'
     }
-    
 }
