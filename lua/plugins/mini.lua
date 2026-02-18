@@ -2,6 +2,8 @@ return {
     {
         'nvim-mini/mini.icons',
         version = '*',
+        -- Required setup
+        opts = {}
     },
     {
         'nvim-mini/mini.statusline',

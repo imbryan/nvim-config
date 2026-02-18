@@ -14,6 +14,8 @@ Using the **[lazy.nvim](https://github.com/folke/lazy.nvim)** plugin manager.
 * **[nvim-colorizer.lua](https://github.com/norcalli/nvim-colorizer.lua)**: color highlighting
 * **[nvim-lspconfig](https://github.com/neovim/nvim-lspconfig)**: LSP configuration
 * **[nvim-treesitter](https://github.com/nvim-treesitter/nvim-treesitter)**: tree-sitter
+* **[oil.nvim](https://github.com/stevearc/oil.nvim)**: directory/file explorer and editor
+* **[oil-git-status.nvim](https://github.com/refractalize/oil-git-status.nvim)**: oil.nvim extension for git signs 
 * **[opencode.nvim](https://github.com/NickvanDyke/opencode.nvim)**: OpenCode integration
 * **[snacks.nvim](https://github.com/folke/snacks.nvim)**: notifications, smooth scroll, scope, indentation
 * **[telescope.nvim](https://github.com/nvim-telescope/telescope.nvim)**: fuzzy finder
@@ -51,4 +53,4 @@ Using the **[lazy.nvim](https://github.com/folke/lazy.nvim)** plugin manager.
 
 ## Known issues
 * Terminal mode requires triple ``<Esc>`` to exit (double is expected)
-* ``todo-comments`` highlighting does not appear until buffer redraw is triggered 
+* ``todo-comments`` highlighting does not appear until a buffer redraw
