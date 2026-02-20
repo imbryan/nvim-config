@@ -32,9 +32,12 @@ return {
             _99.visual()
         end)
 
-        vim.keymap.set("v", "<leader>9s", function()
+        vim.keymap.set("n", "<leader>9x", function()
             _99.stop_all_requests()
         end)
 
+        vim.keymap.set("n", "<leader>9s", function()
+            _99.search()
+        end)
     end,
 }
