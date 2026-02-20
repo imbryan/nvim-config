@@ -4,6 +4,13 @@ return {
         'nvim-lua/plenary.nvim',
         { 'nvim-telescope/telescope-fzf-native.nvim', build = 'make' },
     },
+    opts = {
+        pickers = {
+            find_files = {
+                find_command = { "rg", "--files", "--hidden", "--glob", "!**/.git/*"},
+            },
+        },
+    },
     keys = {
         {
             '<leader>p',

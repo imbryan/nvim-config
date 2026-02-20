@@ -5,6 +5,7 @@ vim.opt.nu = true
 vim.opt.relativenumber = true
 -- vim.opt.statuscolumn = "%s %4{v:lnum} %4{v:relnum} "
 
+-- Tab inputs
 vim.opt.tabstop = 4
 vim.opt.softtabstop = 4
 vim.opt.shiftwidth = 4
@@ -12,13 +13,17 @@ vim.opt.expandtab = true
 
 vim.opt.smartindent = true
 
-vim.opt.wrap = false
+-- Line breaks
+vim.opt.wrap = true
+vim.opt.linebreak = true
+vim.opt.breakindent = true
 
 -- vim.opt.swapfile = false
 -- vim.opt.backup = false
 -- vim.opt.undodir = os.getenv("HOME") .. "/.vim/undodir"
 -- vim.opt.undofile = true
 
+-- Search
 vim.opt.hlsearch = true
 vim.opt.incsearch = true
 
@@ -33,5 +38,6 @@ vim.opt.updatetime = 50
 
 vim.opt.colorcolumn = "80"
 
+-- Default split directions
 vim.opt.splitright = true
 vim.opt.splitbelow = true
