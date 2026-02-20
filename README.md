@@ -53,4 +53,3 @@ Using the **[lazy.nvim](https://github.com/folke/lazy.nvim)** plugin manager.
 
 ## Known issues
 * Terminal mode requires triple ``<Esc>`` to exit (double is expected)
-* ``todo-comments`` highlighting does not appear until a buffer redraw
