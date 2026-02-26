@@ -53,3 +53,4 @@ Plugin manager: **[lazy.nvim](https://github.com/folke/lazy.nvim)**
 
 ## Known issues
 * Terminal mode requires triple ``<Esc>`` to exit (double is expected)
+* ``gitsigns`` hijacks ``:Git`` until ``fugitive`` is opened
