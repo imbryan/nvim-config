@@ -7,10 +7,12 @@ Plugin manager: **[lazy.nvim](https://github.com/folke/lazy.nvim)**
 * **[gitsigns.nvim](https://github.com/lewis6991/gitsigns.nvim)**: Git integration with visualizations
 * **[mason.nvim](https://github.com/mason-org/mason.nvim)**: LSP package manager
 * **[mason-lspconfig.nvim](https://github.com/mason-org/mason-lspconfig.nvim)**: mason.nvim extension for lspconfig
+* **[mason-null-ls.nvim](https://github.com/jay-babu/mason-null-ls.nvim)**: mason.nvim extension for null-ls/none-ls
 * **[mini.icons](https://github.com/nvim-mini/mini.icons)**: icons
 * **[mini.statusline](https://github.com/nvim-mini/mini.statusline)**: Vim statusline
 * **[mini.surround](https://github.com/nvim-mini/mini.surround)**: surround actions
 * **[mini.tabline](https://github.com/nvim-mini/mini.tabline)**: Vim tabline
+* **[none-ls.nvim](https://github.com/nvimtools/none-ls.nvim)**: LSP bridge
 * **[nvim-colorizer.lua](https://github.com/norcalli/nvim-colorizer.lua)**: color highlighting
 * **[nvim-lspconfig](https://github.com/neovim/nvim-lspconfig)**: LSP configuration
 * **[nvim-treesitter](https://github.com/nvim-treesitter/nvim-treesitter)**: tree-sitter
